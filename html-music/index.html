@@ -14,15 +14,25 @@
       <div class="title">lemon</div>
       <div class="singer">米津玄师</div>
       <div class="play">
-
+        <input type="button" id="play" value="播放音频">
+        <input type="button" id="accelerate" value="快进10秒">
+        <input type="button" id="showDown" value="快退10秒">
       </div>
       <div class="lrc">
-        <div class="content"></div>
+        <div class="content">
+
+        </div>
+      </div>
+      <div class="music">
+        <audio id="music" src="./content/music/mom.mp3" controls>
+          您的浏览器不支持音频播放
+        </audio>
       </div>
     </article>
-    <audio src="./content/flac/lemon.flac">
-      您的浏览器不支持音频播放
-    </audio>
+
+
+
+    <script src="./js/index.js"></script>
   </body>
 
 </html>
