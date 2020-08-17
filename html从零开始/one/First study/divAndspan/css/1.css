@@ -1,0 +1,13 @@
+.myBlock {
+  /* block (块元素) */
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-color: aqua;
+  text-decoration: none;
+}
+
+.myInline {
+  display: inline;
+  background-color: aqua;
+}

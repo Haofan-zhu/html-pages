@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>divAndSpan</title>
+    <link rel="stylesheet" href="./css/1.css">
+  </head>
+
+  <body>
+    <!-- 块内元素:
+        代表:div h1-h6 p ul li ol
+        特征:
+          1.可以设置宽高默认宽为父级的宽度
+          2.无论是否有宽度都会独占一行显示
+          3.允许存放行内元素和块级元素
+          4.高度行高外边距内边距都是可以控制
+
+      -->
+    <div><span>1212</span></div>
+    <!-- 行内元素:
+        代表 : a span em b strong i del s iins u 
+        特征:
+          1.宽高取决于内容 
+          2.一行可以显示多个 
+          3.行内元素只能容纳文本和其他行内元素
+      -->
+    <em>
+      我是行内元素
+    </em>
+    <p></p>
+    <!-- 行内块元素:
+          代表: img input td
+          特征 :
+            1.和相邻的行内块元素一起占据一行 会存在外边距 一行可以显示多个
+            2.默认宽度是本身内容的宽度
+            3.高度行高外边距内边距都是可以控制
+    -->
+    <input type="text">
+    <input type="text">
+    <!-- 元素转换 -->
+    <a class="myBlock" href="#">金星阿姨</a>
+    <div class="myInline">块级元素转变行内元素</div>
+    <div class="myInline">块级元素转变行内元素</div>
+
+  </body>
+
+</html>
